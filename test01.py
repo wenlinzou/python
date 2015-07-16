@@ -25,27 +25,32 @@ while bool:
 	info2 = "输入第二个数"
 	content = input("选择运算类型")
 	choose = int(content)
+	if choose == 0:
+		bool = False
+		break
+	sumInfo1 = int(input(info1))
+	sumInfo2 = int(input(info2))
 
 	if choose == 1:
-		sumInfo1 = int(input(info1))
-		sumInfo2 = int(input(info2))
+		# sumInfo1 = int(input(info1))
+		# sumInfo2 = int(input(info2))
 		print(sumInfo1+sumInfo2)
 	elif choose == 2:
-		sumInfo1 = int(input(info1))
-		sumInfo2 = int(input(info2))
+		# sumInfo1 = int(input(info1))
+		# sumInfo2 = int(input(info2))
 		print(sumInfo1-sumInfo2)
 	elif choose == 3:
-		sumInfo1 = int(input(info1))
-		sumInfo2 = int(input(info2))
+		# sumInfo1 = int(input(info1))
+		# sumInfo2 = int(input(info2))
 		print(sumInfo1*sumInfo2)
 	elif choose == 4:
-		sumInfo1 = int(input(info1))
-		sumInfo2 = int(input(info2))
+		# sumInfo1 = int(input(info1))
+		# sumInfo2 = int(input(info2))
 		print(sumInfo1/sumInfo2)
 	elif choose == 5:
-		sumInfo1 = int(input(info1))
-		sumInfo2 = int(input(info2))
+		# sumInfo1 = int(input(info1))
+		# sumInfo2 = int(input(info2))
 		print(sumInfo1%sumInfo2)	
-	elif choose == 0:
-		bool = False		
+	# elif choose == 0:
+	# 	bool = False		
 print("is over")
