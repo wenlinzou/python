@@ -1,3 +1,4 @@
+#coding:utf-8
 print("hello word中文")
 print("名词：sum difference product quotient")
 print("动词：plus minus multiply divide")

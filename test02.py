@@ -1,3 +1,4 @@
+#coding:utf-8
 #数据类型
 num1 = 123
 print(type(num1))
@@ -167,7 +168,47 @@ print(list1)
 
 
 
+#第七节 字典
+table1 = ['name','age','gender']
+table2 = ['jim',30,'male']
+# print(zip(table1,table2))
+dic={0:0,1:1,2:2}
+print(dic[0])
+print(dic[1])
+print(dic[2])
 
+dic1={'name':'jim','age':23,'gender':'male'}
+print(dic1['name'])
+print(dic1['age'])
+print(dic1['gender'])
+
+dic2={1:'123',name:23,'sex':'male'}
+print(dic2[1])
+
+dic3 = {a:'aaa','b':'bbb'}
+print(a)
+print(b)
+
+print(dic3)
+a = 123
+b = 456
+dic3 = {a:'aaa','b':'bbb'}
+print(dic3[123])
+print(dic3)
+
+print help(dic3.keys)
+
+for k in dic1:
+	print(k)
+
+for k in dic1:
+	print(dic1[k])	
+
+#字典更新删除update()可以将整个字典的内容拷贝到另一个字典中
+#del dict1['a']	删除字典中
+
+
+	
 
 
 # img = cv2.imread('test.jpg',cv2.IMREAD_COLOR)

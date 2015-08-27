@@ -1,3 +1,4 @@
+#coding:utf-8
 __author__ = 'Pet'
 print("----------wenlinzouGAME--------")
 # for i in range(10):

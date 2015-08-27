@@ -1,6 +1,7 @@
+#coding:utf-8
 #三个人吃饭,分摊35.27美元饭费,他们还想留15美分的小费,怎么分
 launch = (35.27-15)/3
-print(launch)
+print launch
 
 #计算12.5m X 16.7m的房间面积和周长
 acreage = 12.5 * 16.7
